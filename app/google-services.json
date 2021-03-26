@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "168589786576",
+    "project_id": "tpandroidnative",
+    "storage_bucket": "tpandroidnative.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:168589786576:android:8aa907c6ccd8527b49cdd5",
+        "android_client_info": {
+          "package_name": "com.example.lab11_o22"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "168589786576-nu8co1beh1oeecjfjnujlv4eb5hrurgn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDeya9FcecglESUnDGTxeUk5aDGCaGvbDw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "168589786576-nu8co1beh1oeecjfjnujlv4eb5hrurgn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

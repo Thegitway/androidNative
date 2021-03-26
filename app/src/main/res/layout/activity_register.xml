@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login"
+    android:orientation="vertical"
+    android:layout_margin="38dp">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="311dp"
+        android:src="@drawable/logo"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/username"
+        android:hint="User name"
+        android:drawableLeft="@drawable/ic_baseline_email_24"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/email"
+        android:hint="Email"
+        android:drawableLeft="@drawable/ic_baseline_email_24"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pass"
+        android:hint="Mot de passe"
+        android:drawableLeft="@drawable/ic_baseline_lock_24"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/verifpass"
+        android:hint="Confirmer le mot de passe"
+        android:drawableLeft="@drawable/ic_baseline_lock_24"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/signup"
+        android:text="Sign up"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
