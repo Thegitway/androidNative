@@ -14,11 +14,13 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Which line represente this picture ?"/>
+        android:text="Which line represente this picture ?"
+    />
     <RadioGroup
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/group"/>
+        android:id="@+id/group"
+       >
          <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -35,7 +37,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/radio3"
         android:text="Bot lane"/>
-
+</RadioGroup>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

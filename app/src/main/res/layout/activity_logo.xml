@@ -10,7 +10,7 @@
   <ImageView
       android:layout_width="match_parent"
       android:layout_height="311dp"
-      android:src="@drawable/logo"
+      android:id="@+id/logo"
       />
     <EditText
         android:layout_width="match_parent"

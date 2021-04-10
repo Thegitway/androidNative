@@ -12,6 +12,9 @@ import android.widget.RadioGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+
 public class Quiz1 extends AppCompatActivity {
 
     // step 1 : Declaration des elements
@@ -24,7 +27,6 @@ public class Quiz1 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_quiz1);
-
         //etape 2: recuparation de id
         radio1 =(RadioButton) findViewById(R.id.radio1);
         radio2 =(RadioButton) findViewById(R.id.radio2);
@@ -37,7 +39,12 @@ public class Quiz1 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
+
                 Intent i = new Intent(Quiz1.this,Quiz2.class);
+               // if(radio2.isChecked())
+                  //  mDatabase.setValue("Quiz 1 -> true");
+           // else
+                  //  mDatabase.setValue("Quiz 1 -> false");
                 i.putExtra("result",radio2.isChecked()?1:0);
                 startActivity(i);
             }
